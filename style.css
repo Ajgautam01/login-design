@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 180px;
+    padding: 170px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container .credentials {
+    color: grey;
+    margin-bottom: 40px;
+  }
+  
+  .container .form input[type="text"],
+  .container .form input[type="password"] {
+    width: 360px;
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .container .form input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 5px;
+  }
+
+  .container .form label{
+    margin-bottom: 10px;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  .container .form .pass{
+    color: #5b48d4;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 250px;
+    margin-top: -50px;
+    
+  }
+  .container .form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 380px;
+    font-size: 16px;
+    background-color: #5b48d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .container .form button:hover {
+    background-color: #34297b;
+  }
+  
+  /* ✅ Google button styling */
+  .google-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 348px;
+    transition: background-color 0.2s;
+  }
+  
+  .google-btn:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .google-btn img {
+    height: 20px;
+    width: 20px;
+    margin-left: 25%;
+  }
+.container .form .account{
+color: #777;
+margin-top: 15px;
+margin-left: 80px;
+}
+
+.container .form .signup {
+    color: #5b48d4;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 227px;
+    margin-top: -29px;
+  }
+  .login-img{
+    margin-left: 550px;
+    margin-top: -490px;
+    
+  }
+  
